@@ -97,6 +97,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: var(--spacing-sm) 0;
+    flex-wrap: nowrap;      /* ADD THIS */
 }
 
 .logo {
@@ -116,8 +117,9 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: var(--spacing-md);
+    gap: 1rem;              /* slightly tighter spacing */
     align-items: center;
+    flex-wrap: nowrap;      /
 }
 
 .nav-link {
