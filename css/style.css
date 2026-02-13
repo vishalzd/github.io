@@ -64,7 +64,7 @@ body {
     line-height: 1.6;
     background-color: var(--white);
     overflow-x: hidden;
-       padding-top: 90px;
+   padding-top: 90px;
 
 }
 
@@ -167,12 +167,12 @@ body {
    Hero Section
    =================================== */
 .hero {
+   
     position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, #059669 0%, #0891b2 100%);
-    padding-top: 80px;
     overflow: hidden;
 }
 
